@@ -288,11 +288,239 @@
                 <p class="text-center pt-8">
                     Her finder du vores udvalg af flotte kunstplakater, klar til at komme op og hænge på din væg;-)
                 </p>
-                <p class="text-base leading-normal sm:leading-4 text-center pt-8">Kategorier: <a href="kategori.html"
+                </div>
+
+<!-- Filtreringsnavigation -->
+
+        <div class="2xl:container 2xl:mx-auto">
+            <div class="md:py-12 lg:px-20 md:px-6 py-9 px-4">
+                <div class="flex justify-between items-center mb-4">
+    
+                    <!-- filters Button (md and plus Screen) -->
+                    <button onclick="showFilters()" class="cursor-pointer dark:bg-white dark:text-gray-800 text-white dark:hover:bg-gray-100 sm:flex hidden hover:bg-gray-700 focus:ring focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 py-4 px-6 bg-gray-800 flex text-base leading-4 font-normal text-white justify-center items-center">
+                        <img class="dark:hidden"src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg1.svg"/>
+                        <img class="hidden dark:block"src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg1dark.svg"/>   
+                        Filters
+                    </button>
+                </div>
+    
+                <!-- Filters Button (Small Screen) -->
+    
+                <button onclick="showFilters()" class="cursor-pointer mt-6 block sm:hidden hover:bg-gray-700 focus:ring focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 py-2 w-full bg-gray-800 flex text-base leading-4 font-normal text-white dark:text-gray-800 dark:bg-white dark:hover:bg-gray-100 justify-center items-center">
+                    <img class="dark:hidden"src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg1.svg" alt="filter" />
+                    <img class="hidden dark:block"src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg1dark.svg" alt="filter" />  
+                    Filters
+                </button>
+            </div>
+    
+            <div id="filterSection" class="block relative md:py-10 lg:px-20 md:px-6 py-9 px-4 bg-gray-50 dark:bg-gray-800 w-full">
+               <div class="lg:grid lg:grid-cols-4">
+                <!-- Cross button Code -->
+                <div onclick="closeFilterSection()" class="cursor-pointer absolute right-0 top-0 md:py-10 lg:px-20 md:px-6 py-9 px-4">
+                    <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg2.svg" alt="cross" />
+                    <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg2dark.svg" alt="cross" />
+                </div>
+
+                                <!-- Kategori Section -->
+                <div>
+                    <div class="flex space-x-2 text-gray-800 dark:text-white">
+                        <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg4.svg" alt="materials"/>
+                        <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg4dark.svg" alt="materials"/>
+                        <p class="lg:text-2xl text-xl lg:leading-6 leading-5 font-medium ">Kategori</p>
+                    </div>
+                    <div class="mt-8">
+                        <div class="">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="Leather" name="Leather" value="Leather" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 dark:text-gray-300 font-normal text-gray-600" for="Leather">Populære</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="Cotton" name="Cotton" value="Cotton" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 dark:text-gray-300 font-normal text-gray-600" for="Cotton">Bestsellers</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="Fabric" name="Fabric" value="Fabric" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 dark:text-gray-300 font-normal text-gray-600" for="Fabric">Natur</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="Crocodile" name="Crocodile" value="Crocodile" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 dark:text-gray-300 font-normal text-gray-600" for="Crocodile">By</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="Wool" name="Wool" value="Wool" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 dark:text-gray-300 font-normal text-gray-600" for="Wool">Abstrakt</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <hr class="bg-gray-200 lg:w-6/12 w-full md:my-10 my-8" /> -->
+    
+                <!-- Colors Section -->
+                <div>
+                    <div class="flex space-x-2 text-gray-800 dark:text-white">
+                        <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg3.svg" alt="colors"/>
+                        <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg3dark.svg" alt="colors"/>
+                        <p class="lg:text-2xl text-xl lg:leading-6 leading-5 font-medium">Farver</p>
+                    </div>
+                    <div class="mt-8">
+                        <div class="flex space-x-2 md:items-center items-center justify-start">
+                            <div class="w-4 h-4 rounded-full bg-white shadow"></div>
+                            <p class="text-base leading-4 dark:text-gray-300 text-gray-600 font-normal">Hvid</p>
+                        </div>
+                        <div class="flex space-x-2 items-center mt-2">
+                            <div class="w-4 h-4 rounded-full bg-blue-600 shadow"></div>
+                            <p class="text-base leading-4 dark:text-gray-300 text-gray-600 font-normal">Blå</p>
+                        </div>
+                        <div class="flex space-x-2 md:items-center items-center mt-2">
+                            <div class="w-4 h-4 rounded-full bg-red-600 shadow"></div>
+                            <p class="text-base leading-4 dark:text-gray-300 text-gray-600 font-normal">Rød</p>
+                        </div>
+                        <div class="flex space-x-2 md:items-center items-center justify-start mt-2">
+                            <div class="w-4 h-4 rounded-full bg-indigo-600 shadow"></div>
+                            <p class="text-base leading-4 dark:text-gray-300 text-gray-600 font-normal">Mørkeblå</p>
+                        </div>
+                        <div class="flex space-x-2 items-center mt-2">
+                            <div class="w-4 h-4 rounded-full bg-black shadow"></div>
+                            <p class="text-base leading-4 dark:text-gray-300 text-gray-600 font-normal">Sort</p>
+                        </div>
+                        <div class="flex space-x-2 md:items-center items-center mt-2">
+                            <div class="w-4 h-4 rounded-full bg-purple-600 shadow"></div>
+                            <p class="text-base leading-4 dark:text-gray-300 text-gray-600 font-normal">Lilla</p>
+                        </div>
+                        <div class="flex space-x-2 md:items-center items-center justify-start mt-2">
+                            <div class="w-4 h-4 rounded-full bg-gray-600 shadow"></div>
+                            <p class="text-base leading-4 dark:text-gray-300 text-gray-600 font-normal">Grå</p>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <!-- <hr class="bg-gray-200 lg:w-6/12 w-full md:my-10 my-8" /> -->
+    
+                <!-- Size Section -->
+                <div>
+                    <div class="flex space-x-2 text-gray-800 dark:text-white">
+                        <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg5.svg" alt="size"/>
+                        <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg5dark.svg" alt="size"/>
+                        <p class="lg:text-2xl text-xl lg:leading-6 leading-5 font-medium ">Størrelse</p>
+                    </div>
+                    <div class="mt-8">
+                        <div class="flex md:items-center items-center justify-start">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="Large" name="Large" value="Large" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 font-normal text-gray-600 dark:text-gray-300" for="Large">70x150</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-2">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="Medium" name="Medium" value="Medium" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 font-normal text-gray-600 dark:text-gray-300" for="Medium">80x170</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex md:items-center items-center mt-2">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="Small" name="Small" value="Small" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 font-normal text-gray-600 dark:text-gray-300" for="Small">100x100</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex md:items-center items-center justify-start mt-2">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="Mini" name="Mini" value="Mini" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 font-normal text-gray-600 dark:text-gray-300" for="Mini">120x300</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- <hr class="bg-gray-200 lg:w-6/12 w-full md:my-10 my-8" /> -->
+    
+                <!-- Format Section -->
+                <div>
+                    <div class="flex space-x-2 text-gray-800 dark:text-white ">
+                        <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg6.svg" alt="collection"/>
+                        <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg6dark.svg" alt="collection"/>
+                        <p class="lg:text-2xl text-xl lg:leading-6 leading-5 font-medium ">Format</p>
+                    </div>
+                    <div class=" mt-8">
+                        <div class="flex items-center">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="LS" name="LS" value="LS" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 font-normal dark:text-gray-300 text-gray-600" for="LS">Højformat</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-2">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="LxL" name="LxL" value="LxL" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 font-normal dark:text-gray-300 text-gray-600" for="LxL">Bredformat</label>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="flex items-center mt-2">
+                            <input class="w-4 h-4 mr-2" type="checkbox" id="LxL" name="LxL" value="LxL" />
+                            <div class="inline-block">
+                                <div class="flex space-x-6 justify-center items-center">
+                                    <label class="mr-2 text-sm leading-3 font-normal dark:text-gray-300 text-gray-600" for="LxL">Kvadratisk</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Apply Filter Button (Large Screen) -->
+    
+                <div class="hidden md:block absolute right-0 bottom-0 md:py-10 lg:px-20 md:px-6 py-9 px-4">
+                    <button onclick="applyFilters()" class="hover:bg-gray-700 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-100 focus:ring focus:ring-offset-2 focus:ring-gray-800 text-base leading-4 font-medium py-4 px-10 text-white bg-gray-800">Apply Filter</button>
+                </div>
+    
+                <!-- Apply Filter Button (Table or lower Screen) -->
+    
+                <div class="block md:hidden w-full mt-10">
+                    <button onclick="applyFilters()" class="w-full hover:bg-gray-700 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-100 focus:ring focus:ring-offset-2 focus:ring-gray-800 text-base leading-4 font-medium py-4 px-10 text-white bg-gray-800">Apply Filter</button>
+                </div>
+            </div>
+        </div>
+    
+        <style>
+            .checkbox:checked + .check-icon {
+                display: flex;
+            }
+        </style>
+    
+        <!-- Filtreringsnavigation slut -->
+                <!-- <p class="text-base leading-normal sm:leading-4 text-center pt-8">Kategorier: <a href="kategori.html"
                         class="underline">Naturen</a> / <a href="kategori.html" class="underline">Byen</a>
                     / <a href="kategori.html" class="underline">Sort/hvid</a> / <a href="kategori.html"
-                        class="underline">Minimalisme</a></p>
-            </div>
+                        class="underline">Minimalisme</a></p> -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6 lg:gap-8 mt-8 md:mt-10">
 
                 <div class="bg-gray-50  p-8">
