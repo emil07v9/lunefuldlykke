@@ -19,15 +19,8 @@
     Footer
   -->
 
-  <!-- Topbar start -->
-  <div class="w-full h-10 bg-gray-800 flex gap-6 justify-center">
-<p class="text-white pt-1.5">Levering 1-2 dage</p>
-<p class="text-white pt-1.5">Fri fragt på ordre over 399kr</p>
-<p class="text-white pt-1.5">30 dages fuld returret</p>
-  </div>
-    <!-- Topbar slut -->
     <!-- Navigation -->
-    <div >
+    <div class="">
       <div>
         <div class="relative">
           <!-- For md screen size -->
@@ -389,7 +382,7 @@
                     </div>
                   </a>
                 </li>
-                 <li>
+                <li>
                   <a
                     href="kunstnere.html"
                     class="flex items-center justify-between text-base text-gray-800 hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
@@ -461,367 +454,46 @@
     </div>
     <!-- Navigation slut -->
     <!-- Content -->
-        <!-- Hero -->
-  <div>
-    <img class="relative height w-full object-cover object-top" src="content/inspirationsguide-plakat.jpg" alt="">
-    <div class="absolute left-1/2 top-80 mr-10">
-    <h1 class="text-6xl text-white">Plakater der gør din hverdag lidt smukkere</h1>
-    <p class="mt-8 text-gray-800 text-xl">Hos os kan du få plakater til hver en smag</p>
-    <a class="" href=""><button class="mt-4 p-4 bg-gray-800 text-white hover:bg-white hover:text-gray-800">SE VORES UDVALG</button></a>
-    </div>
-<!-- Newsletter component -->
-<div class="absolute left-0 top-60 2xl:container py-16">
-  <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
-  <div class="w-full relative flex items-center justify-center">
-    <div class="bg-gray-800 bg-opacity-80 md:my-16 lg:py-10 py-10 w-96 md:px-4 px-4 flex flex-col items-center justify-center relative z-40">
-      <h1 class="text-4xl font-semibold leading-9 text-white text-center">Don’t miss out!</h1>
-      <p class="text-base leading-normal text-center text-white mt-6">
-        Subscribe til vores Nyhedsbrev og få 20% på din første ordre! Vores nyhedsbrev bliver sendt hver fredag, så skynd dig at subscribe, <br /> så du kan få vores nyeste trends og updates.
-        
-      </p>
-      <div class="subscribe sm:border border-white flex-col sm:flex-row flex items-center lg:w-5/12 mt-12 space-y-4 sm:space-y-0">
-        <input class="border border-white sm:border-transparent text-base w-full font-medium leading-none text-white p-4 focus:outline-none bg-transparent placeholder-white" placeholder="Email Address" />
-        <button class="focus:outline-none focus:ring-offset-2 focus:ring border border-white sm:border-transparent w-full sm:w-auto bg-white py-4 px-6 hover:bg-opacity-75">Subscribe</button>
+    <div class="mx-60 my-20">
+      <div class="grid grid-cols-2 gap-4 mb-10">
+        <img class="h-full" src="./content/turid.jpg" alt="" />
+        <div>
+          <h2 class="pb-5 text-4xl">Turid Dagstad</h2>
+          <p>
+            Turið er en af Lunefuld Lykkes unge fotografer. Turið fik sit første kamera som blot 11-årig, og steg hurtigt i graderne i de færøske fotoklubber. Det var i høj grad billeder af de færøske landskaber, og hendes evne til at få en personlig dimension ind i dem, der gjorde hende populær. 
+I de sene teenageår begyndte blev den personlige dimension dog mere dyster: Turið fik en lang depression, og brugte fotografiet for at udtrykke hendes aktuelle sindsstemning. Den dystre billedstil blev populær, og Turið fik en masse følgere på Instagram. 112.517, faktisk. Men så blev det for meget. 
+Hun ville væk fra mediehysteriet, slettede alle SoMe-profiler og Købte en gammel Nokia 3310. Hun begyndte at læse til lærer, oget gav hende mere stabilitet i hverdagen. Nu har hun fundet kameraet frem igen. Hun kommer dog ikke på instagram - hun tager billederne, og Lunefuld Lykke står for alt det praktiske med salg, markedsføring (det Turið så vittigt kalder markedsafføring) og sociale medier. 
+Støt Turið i sit nye liv ved at købe én af hendes flotte plakater;-)
+
+          </p>
+          <div class="mt-10">
+            <p><strong>Født:</strong> 1990 i Thorshavn, Færøerne
+</p>
+            <p><strong>Bopæl:</strong> Thorshavn, Færøerne</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
-  </div>
-        <!-- Hero slut -->
-
-  
-      <!-- Cookies start -->
-     <!-- component -->
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
-<style>
-@import url(https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css);
-@-webkit-keyframes fadeIn {
-  from { opacity:0 }
-  to { opacity:1 }
-}
-@keyframes fadeIn {
-  from { opacity:0 }
-  to { opacity:1 }
-}
-@-webkit-keyframes fadeInUp {
-  from { opacity:0; transform:translate3d(0,10%,0) }
-  to { opacity:1; transform:translate3d(0,0,0) }
-}
-@keyframes fadeInUp {
-  from { opacity:0; transform:translate3d(0,10%,0) }
-  to { opacity:1; transform:translate3d(0,0,0) }
-}
-
-dialog[open] { -webkit-animation-duration:0.3s; animation-duration:0.3s; -webkit-animation-fill-mode:both; animation-fill-mode:both; -webkit-animation-name:fadeInUp; animation-name:fadeInUp }
-dialog::backdrop { background: rgba(0, 0, 0, 0.3); backdrop-filter: blur(3px); -webkit-animation-duration:0.3s; animation-duration:0.3s; -webkit-animation-fill-mode:both; animation-fill-mode:both; -webkit-animation-name:fadeIn; animation-name:fadeIn  }
-</style>
-
-<div class="w-screen bg-gray-100 flex items-center justify-center relative" x-data="{showCookieBanner:true}">
-    <section class="w-full p-5 lg:px-24 absolute top-0 bg-gray-600" x-show="showCookieBanner">
-        <div class="md:flex items-center -mx-3">
-            <div class="md:flex-1 px-3 mb-5 md:mb-0">
-                <p class="text-center md:text-left text-white text-xs leading-tight md:pr-12">We and selected partners and related companies, use cookies and similar technologies as specified in our Cookies Policy. You agree to consent to the use of these technologies by clicking Accept, or by continuing to browse this website. You can learn more about how we use cookies and set cookie preferences in Settings.</p>
-            </div>
-            <div class="px-3 text-center">
-                <button id="btn" class="py-2 px-8 bg-gray-800 hover:bg-gray-900 text-white rounded font-bold text-sm shadow-xl mr-3" @click.prevent="document.getElementById('cookiesModal').showModal()">Cookie settings</button>
-                <button id="btn" class="py-2 px-8 bg-green-400 hover:bg-green-500 text-white rounded font-bold text-sm shadow-xl" @click.prevent="showCookieBanner=!showCookieBanner">Accept cookies</button>
-            </div>
-        </div>
-    </section>
-    <dialog id="cookiesModal" class="h-auto w-11/12 md:w-1/2 bg-white overflow-hidden rounded-md p-0">
-        <div class="flex flex-col w-full h-auto">
-            <div class="flex w-full h-auto items-center px-5 py-3">
-                <div class="w-10/12 h-auto text-lg font-bold">
-                    Cookie settings
-                </div>
-                <div class="flex w-2/12 h-auto justify-end">
-                    <button @click.prevent="document.getElementById('cookiesModal').close();" class="cursor-pointer focus:outline-none text-gray-400 hover:text-gray-800">
-                        <i class="mdi mdi-close-circle-outline text-2xl"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="flex w-full items-center bg-gray-100 border-b border-gray-200 px-5 py-3 text-sm">
-                <div class="flex-1">
-                    <p>Strictly necessary cookies</p>
-                </div>
-                <div class="w-10 text-right">
-                    <i class="mdi mdi-check-circle text-2xl text-green-400 leading-none"></i>
-                </div>
-            </div>
-            <div class="flex w-full items-center bg-gray-100 border-b border-gray-200 px-5 py-3 text-sm">
-                <div class="flex-1">
-                    <p>Cookies that remember your settings</p>
-                </div>
-                <div class="w-10 text-right">
-                    <i class="mdi mdi-check-circle text-2xl text-green-400 leading-none"></i>
-                </div>
-            </div>
-            <div class="flex w-full items-center bg-gray-100 border-b border-gray-200 px-5 py-3 text-sm">
-                <div class="flex-1">
-                    <p>Cookies that measure website use</p>
-                </div>
-                <div class="w-10 text-right">
-                    <i class="mdi mdi-check-circle text-2xl text-green-400 leading-none"></i>
-                </div>
-            </div>
-            <div class="flex w-full items-center bg-gray-100 border-b border-gray-200 px-5 py-3 text-sm">
-                <div class="flex-1">
-                    <p>Cookies that help with our communications and marketing</p>
-                </div>
-                <div class="w-10 text-right">
-                    <i class="mdi mdi-check-circle text-2xl text-green-400 leading-none"></i>
-                </div>
-            </div>
-            <div class="flex w-full px-5 py-3 justify-end">
-                <button @click.prevent="document.getElementById('cookiesModal').close();" class="py-2 px-8 bg-gray-800 hover:bg-gray-900 text-white rounded font-bold text-sm shadow-xl">Save settings</button>
-            </div>
-        </div>
-    </dialog>
-</div>
-<!-- Cookie slut -->
-<div class="md:mx-40">
-<h2 class="flex justify-center pt-10 text-5xl mt-20">Støt vore kunstnere</h2>
-<div class="md:grid grid-cols-2 pt-10">
-<p class="max-w-lg">Mange kunstnere lider af psykiske lidelser og får social angst, når de skal skabe og fremvise kunstværker, som har personlig betydning for dem. Hos Lunefuld Lykke ønsker vi at give tilbage til de kunstnere, der skaber liv og varme til vores alles hjem, men måske ikke selv har det godt. Når du køber en plakat, giver vi derfor 10% af prisen tilbage til kunsterne for at støtte dem og deres velbefindende.</p>
-<img src="content/turid.jpg" alt="">
-</div>
-</div>
-        <!-- Featured categories-->
-        <h2 class="flex justify-center pt-10 text-5xl mt-20">Populære produkter</h2>
-        <div class="mt-10 grid items-center gap-x-8 gap-y-8 lg:grid-cols-4">
-          <div
-            class="group justify-left relative flex bg-gray-50 px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
-          >
-            <a href="kategori.html"
-              ><img
-                class="transition duration-500 group-hover:opacity-60"
-                src="content/trae-poster.jpg"
-                alt="sofa-4"
-            /></a>
-            <div
-              class="absolute top-4 left-4 flex flex-col items-start justify-start space-y-2 sm:top-8 sm:left-8"
-            >
-              <div>
-                <p
-                  class="text-xl leading-5 text-gray-600 transition duration-500 group-hover:opacity-60"
-                >
-                  Naturen kalder | Hugo Logo 
-                </p>
-              </div>
-              <div>
-                <p
-                  class="text-xl font-semibold leading-5 text-gray-800 transition duration-500 group-hover:opacity-60"
-                >
-                  Fra 199.-
-                </p>
-              </div>
-            </div>
+      
+      <h3 class="pb-5 text-3xl">CV</h2>
+        <div class="md:grid grid-cols-2 gap-4">
+          <div>
+            <h4 class="text-2xl py-2">Uddannelse</h4>
+            <p class="text-xl py-2" >Student, Miðnám á Kambsdali gymnasium, 2011
+</p>
+            <p class="text-xl py-2">Folkeskolelærer, Føroya Læraraskúli, 2018</p>
+            <p class="text-xl py-2">Har vundet international hæder for siden færøske fotoserier, og har blandt andet fået titlen “ridder af det færøske fotoselskab” i 2020
+</p>
           </div>
-
-          <div
-            class="group justify-left relative flex bg-gray-50 px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
-          >
-            <a href="kategori.html"
-              ><img
-                class="transition duration-500 group-hover:opacity-60"
-                src="content/litteratur/the_unsplash_book_af_unsplash_community.jpg"
-                alt="sofa-4"
-            /></a>
-            <div
-              class="absolute top-4 left-4 flex flex-col items-start justify-start space-y-2 sm:top-8 sm:left-8"
-            >
-              <div>
-                <p
-                  class="text-xl leading-5 text-gray-600 transition duration-500 group-hover:opacity-60"
-                >
-                  Selvbiografi | Ulla Thomsen
-                </p>
-              </div>
-              <div>
-                <p
-                  class="text-xl font-semibold leading-5 text-gray-800 transition duration-500 group-hover:opacity-60"
-                >
-                  Fra 199.-
-                </p>
-              </div>
-            </div>
+          <div>
+           <h4 class="text-2xl py-2">Arbejde</h4>
+            <p class="text-xl py-2" >2012-nu: Tourguide, Faroese Foto-tours
+</p>
+            <p class="text-xl py-2">2012-nu: Freelance fotograf - primært landskaber. Har bl.a. udgivet fotobogen Føroya by Night.
+</p>
+            <p class="text-xl py-2">2018-nu: Folkeskolelærer (siden 2020 på deltid).</p>
           </div>
-
-        <div
-            class="group justify-left relative flex bg-gray-50 px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
-          >
-            <a href="kategori.html"
-              ><img
-                class="transition duration-500 group-hover:opacity-60"
-                src="content/litteratur/kobenhavnerbilleder-sten-simons.jpg"
-                alt="sofa-4"
-            /></a>
-            <div
-              class="absolute top-4 left-4 flex flex-col items-start justify-start space-y-2 sm:top-8 sm:left-8"
-            >
-              <div>
-                <p
-                  class="text-xl leading-5 text-gray-600 transition duration-500 group-hover:opacity-60"
-                >
-                  Københavnerbilleder | Sten Simons
-                </p>
-              </div>
-              <div>
-                <p
-                  class="text-xl font-semibold leading-5 text-gray-800 transition duration-500 group-hover:opacity-60"
-                >
-                  Fra 199.-
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="group justify-left relative flex bg-gray-50 px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
-          >
-            <a href="kategori.html"
-              ><img
-                class="transition duration-500 group-hover:opacity-60"
-                src="content/poster-sort-hvid.jpg"
-                alt="sofa-4"
-            /></a>
-            <div
-              class="absolute top-4 left-4 flex flex-col items-start justify-start space-y-2 sm:top-8 sm:left-8"
-            >
-              <div>
-                <p
-                  class="text-xl leading-5 text-gray-600 transition duration-500 group-hover:opacity-60"
-                >
-                  Sort/Hvid | Edgar Poe
-                </p>
-              </div>
-              <div>
-                <p
-                  class="text-xl font-semibold leading-5 text-gray-800 transition duration-500 group-hover:opacity-60"
-                >
-                  Fra 199.-
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Featured categories slut -->
-      </div>
-    </div>
-    </div>
-
-        <!-- Testimonials start -->
-    <div class="mb-8 text-center mt-20">
-    <h2 class="text-4xl">Testimonials</h2>
-    <p class="text-lg text-gray-600">What others say about us</p>
-</div>
-<div class="lg:grid lg:grid-cols-3 lg:gap-x-2">
-    <div class="p-4 text-gray-800">
-        <div class="mb-2">
-          <div class="flex justify-center">
-            <img src="content/IcBaselineStar.svg" alt="">
-            <img src="content/IcBaselineStar.svg" alt="">
-            <img src="content/IcBaselineStar.svg" alt="">
-            <img src="content/IcBaselineStar.svg" alt="">
-            <img src="content/IcBaselineStar.svg" alt="">
-          </div>
-            <p class="mb-2 text-center text-gray-600 ">
-                "Super flot tryk. Jeg købte tre 70x100 plakater, og papiret er dejlig tykt. Tilpas mat, så der ikke er for mange reflektioner."
-            </p>
-            <div class="flex flex-col items-center justify-center">
-                <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://cdn.pixabay.com/photo/2017/05/19/12/38/entrepreneur-2326419__340.jpg" alt="img"
-                        class="object-cover object-center w-full h-full" />
-                </div>
-                <h5 class="font-bold ">Line Vagner</h5>
-            </div>
         </div>
     </div>
-    <div class="p-4 text-gray-800">
-        <div class="mb-2">
-          <div class="flex justify-center">
-            <img src="content/IcBaselineStar.svg" alt="">
-            <img src="content/IcBaselineStar.svg" alt="">
-            <img src="content/IcBaselineStar.svg" alt="">
-            <img src="content/IcBaselineStar.svg" alt="">
-          </div>
-            <p class="mb-2 text-center text-gray-600 ">
-                "Alt gik som forventet - hurtig og korrekt levering. Havde dog gerne set at det var lidt billigere:-D"
-            </p>
-            <div class="flex flex-col items-center justify-center">
-                <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://cdn.pixabay.com/photo/2021/07/14/17/32/manager-6466713__340.jpg" alt="img"
-                        class="object-cover object-center w-full h-full" />
-                </div>
-                <h5 class="font-bold ">Poul Ruth</h5>
-            </div>
-        </div>
-    </div>
-    <div class="p-4 text-gray-800">
-        <div class="mb-2">
-          <div class="flex justify-center">
-            <img src="content/IcBaselineStar.svg" alt="">
-            <img src="content/IcBaselineStar.svg" alt="">
-            <img src="content/IcBaselineStar.svg" alt="">
-            <img src="content/IcBaselineStar.svg" alt="">
-            <img src="content/IcBaselineStar.svg" alt="">
-          </div>
-            <p class="mb-2 text-center text-gray-600 ">
-                "Jeg har haft en nederen periode, og at se Lunefuld Lykkes plakater hjælper mig med - det er rart at vide at jeg ikke er den eneste med ar i sjælen. Og så pynter plakaterne flot på væggene:-)"
-            </p>
-            <div class="flex flex-col items-center justify-center">
-                <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://cdn.pixabay.com/photo/2021/07/14/17/32/manager-6466713__340.jpg" alt="img"
-                        class="object-cover object-center w-full h-full" />
-                </div>
-                <h5 class="font-bold">Andrea V.</h5>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Testimonials stop -->
-
-    <!-- Highlight start -->
-
-        <div class="2xl:container 2xl:mx-auto md:py-12 py-9">
-            <div class="bg-gray-50 dark:bg-gray-800 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-12 gap-14 lg:px-20 lg:py-12 py-10 md:px-12 px-4">
-                <!-- Delivery grid Card -->
-                <div class="">
-                    <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1.svg" alt="delivery">
-                    <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1dark.svg" alt="delivery">
-                    <h3 class="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">Delivery</h3>
-                    <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Free worldwide delivery over orders above $100</p>
-                </div>
-    
-                <!-- customer Grid Card -->
-    
-                <div class="">
-                    <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2.svg" alt="Customer Care">
-                    <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2dark.svg" alt="Customer Care">
-                    <h3 class="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">Customer Care</h3>
-                    <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Our customer care is available 24/7 at <span class="font-semibold cursor-pointer">+495-589-509</span> and <span class="font-semibold cursor-pointer">customercare@gmail.com</span></p>
-                </div>
-    
-                <!-- Recycle Grid Card -->
-    
-                <div class="">
-                    <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3.svg" alt="Recycle">
-                    <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3dark.svg" alt="Recycle">
-                    <h3 class="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">Recycle</h3>
-                    <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">All out products are 100 percent recycable</p>
-                </div>
-    
-                <!-- Secure Payment Card -->
-    
-                <div class="">
-                    <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4.svg" alt="Secure Payment">
-                    <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4dark.svg" alt="Secure Payment">
-                    <h3 class="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">Secure Payment</h3>
-                    <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Transaction process has end to end encryption</p>
-                </div>
-            </div>
-        </div>
-    <!-- Highlight slut -->
     <!-- Content slut-->
 
     <!-- Footer -->
@@ -835,9 +507,7 @@ dialog::backdrop { background: rgba(0, 0, 0, 0.3); backdrop-filter: blur(3px); -
             <p class="mt-4 text-sm leading-none text-white">
               Copyright © 2022 Lunefuld Lykke
             </p>
-             <p class="mt-4 text-sm leading-none text-white">
-              CVR: 421-230-472
-            </p>
+            <p class="mt-4 text-sm leading-none text-white">CVR: 421-230-472</p>
             <p class="mt-4 text-sm leading-none text-white">
               Addresse: Hugologogade 77, 2222 BonBon
             </p>
@@ -919,12 +589,12 @@ dialog::backdrop { background: rgba(0, 0, 0, 0.3); backdrop-filter: blur(3px); -
               class="mt-6 cursor-pointer text-base leading-4 text-white hover:text-gray-500 focus:underline focus:outline-none"
               >FAQ policy</a
             >
-             <a
+            <a
               href="javascript:void(0)"
               class="mt-6 cursor-pointer text-base leading-4 text-white hover:text-gray-500 focus:underline focus:outline-none"
               >Cookies policy</a
             >
-             <a
+            <a
               href="javascript:void(0)"
               class="mt-6 cursor-pointer text-base leading-4 text-white hover:text-gray-500 focus:underline focus:outline-none"
               >Privatlivs policy</a
