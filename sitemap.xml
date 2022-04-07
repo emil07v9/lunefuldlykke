@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<!-- Forside -->
+<url>
+<loc>https://624eec87c1d3391148cd62e4--cheerful-seahorse-2c1d51.netlify.app</loc>
+<lastmod>2022-04-07</lastmod>
+</url>
+
+<!-- Plakater -->
+<url>
+<loc>https://624eec87c1d3391148cd62e4--cheerful-seahorse-2c1d51.netlify.app/shop.html</loc>
+<lastmod>2022-04-07</lastmod>
+</url>
+
+<!-- Bøger -->
+<url>
+<loc>https://624eec87c1d3391148cd62e4--cheerful-seahorse-2c1d51.netlify.app/shopbook</loc>
+<lastmod>2022-04-07</lastmod>
+</url>
+
+<!-- Inspiration -->
+<url>
+<loc>https://624eec87c1d3391148cd62e4--cheerful-seahorse-2c1d51.netlify.app/inspiration.html</loc>
+<lastmod>2022-04-07</lastmod>
+</url>
+
+<!-- Plakat: Enkelt produkt -->
+<url>
+<loc>https://624eec87c1d3391148cd62e4--cheerful-seahorse-2c1d51.netlify.app/produkt.html</loc>
+<lastmod>2022-04-07</lastmod>
+</url>
+
+<!-- Bøger: Enkelt produkt -->
+<url>
+<loc>https://624eec87c1d3391148cd62e4--cheerful-seahorse-2c1d51.netlify.app/bogprodukt.html</loc>
+<lastmod>2022-04-07</lastmod>
+</url>
+
+<!-- How To -->
+<url>
+<loc>https://624eec87c1d3391148cd62e4--cheerful-seahorse-2c1d51.netlify.app/howtoartikler.html</loc>
+<lastmod>2022-04-07</lastmod>
+</url>
